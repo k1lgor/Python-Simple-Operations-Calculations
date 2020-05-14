@@ -1,0 +1,10 @@
+x1 = float(input())
+y1 = float(input())
+x2 = float(input())
+y2 = float(input())
+l = abs(x1 - x2)
+w = abs(y1 - y2)
+area = l * w
+peri = 2 * (l + w)
+print(f'{area:.2f}')
+print(f'{peri:.2f}')
