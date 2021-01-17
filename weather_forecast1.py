@@ -1,5 +1,0 @@
-name = str(input())
-if (name == "sunny"):
-    print("It's warm outside!")
-else:
-    print("It's cold outside!")
